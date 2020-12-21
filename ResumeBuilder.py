@@ -24,7 +24,7 @@ plt.axhline(y=.88, xmin=0, xmax=1, color='#ffffff', linewidth=3)
 plt.axis('off')
 
 # Text Variables
-Header = '>>>This resume was generated entirely in Python. For full sourcecode, view my Github \nrepository link.'
+Header = '>>>This resume was generated entirely in Python. For full sourcecode, view my Github \nhttps://github.com/piy72/ResumeBuilder.'
 Name = 'PEEYUSH SHANKER TRIVEDI '
 Title = 'Automation Engineer'
 Contact = '568 kha/373,\nGeetapalli, Alambagh\nLucknow\nUttar Pradesh\nPin Code-226005\nPhone- 9653093751\nEmail-peeyusht612@gmail.com'
