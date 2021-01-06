@@ -54,9 +54,13 @@ EduTwoTitle = 'Lucknow Public Inter College, Intermediate'
 EduTwoTime = '2011-12'
 EduTwoDesc = '- Stream: Physics, Chemistry, Mathemetics and Computer Science'
 SkillsHeader = 'Skills'
-SkillsDesc = '- Java\n- Blueprism\n- Jenkins\n- Keyword Driven Approach\n- Command Line\n- Git and Version Control\n- SQL\n- Basic Shell Scripting\n- Excel\n- Python'
+SkillsDesc = '- Java\n- Selenium\n- Blueprism\n- Jenkins\n- Keyword Driven Approach\n- Command Line\n- Git and Version Control\n- SQL\n- TestNG\n- UFT(Beginner)\n- ALM Octane\n- Scripted and Declarative pipelines\n- Basic Shell Scripting\n- Excel\n- Python'
+CertificationHead= 'Certifications'
+Certifications = '- MTA Certification\n on Basic Web Developement\n- Year-> 2015'
 ExtrasTitle = 'Strengths'
 ExtrasDesc = '- Fast Learner\n- Eager to learn new technologies\n- Innovator'
+ExtrasTitle1 = 'Hobbies'
+ExtrasDesc1 = '- Singing\n- Learning about new Things\n- Travelling\n- Reading Physics Books'
 
 # add text
 plt.annotate(Header, (.02,.98), weight='regular', fontsize=8, alpha=.75)
@@ -88,13 +92,17 @@ plt.annotate(EduOneDesc, (.04,.135), weight='regular', fontsize=9)
 plt.annotate(EduTwoTitle, (.02,.10), weight='bold', fontsize=10)
 plt.annotate(EduTwoTime, (.02,.085), weight='regular', fontsize=9, alpha=.6)
 
-plt.annotate(SkillsHeader, (.7,.75), weight='bold', fontsize=10, color='#ffffff')
-plt.annotate(SkillsDesc, (.7,.56), weight='regular', fontsize=10, color='#ffffff')
-plt.annotate(ExtrasTitle, (.7,.403), weight='bold', fontsize=10, color='#ffffff')
-plt.annotate(ExtrasDesc, (.7,.345), weight='regular', fontsize=10, color='#ffffff')
+plt.annotate(SkillsHeader, (.7,.785), weight='bold', fontsize=10, color='#ffffff')
+plt.annotate(SkillsDesc, (.7,.51), weight='regular', fontsize=10, color='#ffffff')
+plt.annotate(CertificationHead, (.7,.43), weight='bold', fontsize=10, color='#ffffff')
+plt.annotate(Certifications, (.7,.365), weight='regular', fontsize=10, color='#ffffff')
+plt.annotate(ExtrasTitle, (.7,.287), weight='bold', fontsize=10, color='#ffffff')
+plt.annotate(ExtrasDesc, (.7,.225), weight='regular', fontsize=10, color='#ffffff')
+plt.annotate(ExtrasTitle1, (.7,.16), weight='bold', fontsize=10, color='#ffffff')
+plt.annotate(ExtrasDesc1, (.7,.079), weight='regular', fontsize=10, color='#ffffff')
 
 #Save pdf
-plt.savefig('resumeexample.pdf', dpi=300, bbox_inches='tight')
+plt.savefig('MyLatestResume.pdf', dpi=300, bbox_inches='tight')
 
 #add qr code
 #arr_code = mpimg.imread('ekresumecode.png')
